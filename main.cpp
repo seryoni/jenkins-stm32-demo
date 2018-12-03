@@ -36,7 +36,7 @@ int main()
     while(1) {
         if (button1_pressed) { // Set when button is pressed
             button1_pressed = false;
-            printf("Button pressed %d\n", idx++);
+            printf("Button pressed! %d\n", idx++);
             led1 = !led1;
         }
     }
